@@ -1,0 +1,190 @@
+body {
+    background: linear-gradient(
+         20deg,
+         #680608 5%,
+         hsl(0, 75%, 32%),
+         #b95456
+    );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.t1 {
+    text-align: left;
+    padding-left: 12%;
+    padding-top: 12.6%;
+    font-family: "Lucida Sans Unicode";
+    color: white;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.p1 {
+    text-align: left;
+    padding-left: 12%;
+    padding-bottom: 1%;
+    font-family: "Lucida Sans Unicode";
+    color: white;
+    font-size: 21px;
+    font-weight: 100;
+}
+
+.pricebutton {
+    background-color: rgb(78, 197, 78);
+    border-radius: 20px;
+    padding: 15px 30px;
+    cursor: pointer;
+    margin-top: 1%;
+    margin-left: 11.9%;
+    font-family: montserrat;
+    font-weight: 700;
+    font-size: large;
+    color: white;
+    border: 0px solid white;
+}
+
+.form-container {
+    position: absolute;
+    top: 57%;
+    left: 74%;
+    transform: translate(-50%, -50%);
+    width: 450px;
+    height: 520px;
+    background: white;
+    border-radius: 3%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+  }
+  
+  .form-container h2 {
+    font-family: "Lucida Sans Unicode";
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 200;
+  }
+  
+  .form-container form {
+    padding: 20px;
+  }
+  
+  .form-container label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .form-container input,
+  .form-container textarea {
+    align-items: center;
+    background-color: rgba(218, 218, 218, 0.575);
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    margin-left: 22%;
+    margin-top: 10px;
+  }
+  
+  .form-container button {
+    background-color: rgb(78, 197, 78);
+    border-radius: 20px;
+    padding: 15px 30px;
+    cursor: pointer;
+    margin-top: 10%;
+    margin-left: 11.9%;
+    font-family: montserrat;
+    font-weight: 700;
+    font-size: large;
+    color: white;
+    border: 0px solid white;
+    width: 78%;
+  }
+  
+  .form-container button:hover {
+    background: #000000;
+  }
+
+  #message {
+    margin-left: 50px;
+    width: 290px;
+    height: 60px;
+  }
+
+  #email {
+    margin-left: 50px;
+    width: 290px;
+    height: 30px;
+  }
+
+  #name {
+    margin-left: 50px;
+    width: 290px;
+    height: 30px;
+  }
+
+  .navbar {
+    background-color: #180a01;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    height: 30px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,.1);
+  }
+  
+  .navbar .logo {
+    padding-left: 11%;
+    font-family: "Lucida Sans Unicode";
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .navbar-buttons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: right;
+    margin: -50px;
+    word-spacing: 60%;
+    padding-right: 17.4%;
+  }
+  
+  .navbar-button {
+    font-size: 28px;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 60px;
+    font-family: "Lucida Sans Unicode";
+    font-weight: 300;
+    padding-top: 20px;
+    padding: 7px;
+    display: inline-block;
+    position: relative;
+   
+  }
+  
+  .navbar-button::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .navbar-button:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
